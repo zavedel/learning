@@ -1,8 +1,8 @@
 [[@Autowired]]
 [[DeleteMapping]]
-[[GetMapping("")]]
-[[PostMapping("")]]
-[[PutMapping("")]]
-[[RequestMapping("")]]
+[[GetMapping]]
+[[PostMapping]]
+[[PutMapping]]
+[[RequestMapping]]
 [[RestController]]
 
