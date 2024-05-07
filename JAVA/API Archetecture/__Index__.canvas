@@ -1,7 +1,5 @@
 {
 	"nodes":[
-		{"id":"5c8a686679e02ea2","type":"text","text":"[[Entity]]","x":-1000,"y":520,"width":250,"height":60,"color":"5"},
-		{"id":"2e35a9cd06b6443f","type":"text","text":"Database","x":-1000,"y":620,"width":250,"height":60},
 		{"id":"3aef8d5c95f68e08","type":"text","text":"[[Repository]]","x":-1000,"y":400,"width":250,"height":60,"color":"5"},
 		{"id":"a4cfde3b106b175c","type":"text","text":"[[Services]] ","x":-1000,"y":290,"width":250,"height":60,"color":"4"},
 		{"id":"be6cb9d636e180f4","type":"text","text":"[[Controller]]","x":-1000,"y":180,"width":250,"height":60,"color":"1"},
@@ -10,12 +8,14 @@
 		{"id":"d34cbc9185573076","type":"text","text":"PERSISTANCE","x":-1640,"y":520,"width":250,"height":60,"color":"5"},
 		{"id":"fb9398a8e9bdece4","type":"text","text":"API","x":-1640,"y":180,"width":250,"height":60,"color":"1"},
 		{"id":"27a7299e1400d07e","type":"text","text":"Class Model","x":-1340,"y":290,"width":250,"height":60,"color":"3"},
-		{"id":"8c8199df36ebcc66","type":"text","text":"[[Data Transfer Object]]","x":-660,"y":290,"width":250,"height":60,"color":"1"}
+		{"id":"8c8199df36ebcc66","type":"text","text":"[[Data Transfer Object]]","x":-660,"y":290,"width":250,"height":60,"color":"1"},
+		{"id":"2e35a9cd06b6443f","type":"text","text":"Database","x":-1000,"y":520,"width":250,"height":60},
+		{"id":"5c8a686679e02ea2","type":"text","text":"[[Entity]]","x":-660,"y":403,"width":250,"height":55,"color":"5"}
 	],
 	"edges":[
 		{"id":"c067ef7664f25786","fromNode":"3aef8d5c95f68e08","fromSide":"top","toNode":"a4cfde3b106b175c","toSide":"bottom"},
-		{"id":"b4e890be410ca565","fromNode":"2e35a9cd06b6443f","fromSide":"top","toNode":"5c8a686679e02ea2","toSide":"bottom"},
-		{"id":"24a6d71329713b0c","fromNode":"5c8a686679e02ea2","fromSide":"top","toNode":"3aef8d5c95f68e08","toSide":"bottom"},
+		{"id":"b4e890be410ca565","fromNode":"2e35a9cd06b6443f","fromSide":"top","toNode":"3aef8d5c95f68e08","toSide":"bottom"},
+		{"id":"24a6d71329713b0c","fromNode":"5c8a686679e02ea2","fromSide":"left","toNode":"3aef8d5c95f68e08","toSide":"right"},
 		{"id":"c9f2aa02e3b259cd","fromNode":"8c8199df36ebcc66","fromSide":"left","toNode":"a4cfde3b106b175c","toSide":"right"},
 		{"id":"b8e818bdff0b6db4","fromNode":"a4cfde3b106b175c","fromSide":"top","toNode":"be6cb9d636e180f4","toSide":"bottom"},
 		{"id":"e6bdf9f5e4bc10c4","fromNode":"27a7299e1400d07e","fromSide":"right","toNode":"a4cfde3b106b175c","toSide":"left"}
